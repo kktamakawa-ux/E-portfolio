@@ -16,6 +16,15 @@ p {
     color:#242424;
     line-height: 1.5;
     font-size:16px;
+
+}
+
+.text__purple {
+    color: #6030b1;
+}
+
+h1{
+    font-size:36px;
 }
 
 /* NAVIGATION BAR*/
@@ -65,3 +74,38 @@ li{
     font-weight: bold;
 
 }
+
+/* ABOUT ME*/
+
+.about-me__info--container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.about-me__picture--mask {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    overflow:hidden;
+    box-shadow:0 8px 16px rgba(0,0,0,.16);
+    margin-bottom: 28px;
+}
+
+.about-me__picture{
+
+    width:100%
+   
+
+}
+.about-me__info--title {
+
+    margin-bottom: 16px;
+}
+
+.about-me__info--para {
+
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
