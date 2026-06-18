@@ -251,9 +251,17 @@ transform:scale(1);
     position:absolute;
     top:50%;
     left:90px;
-    transform: translateY (-50%);
+    transform: translateY(100%);
     max-width: 550px;
     z-index:3;
+    opacity:0;
+    transition: transform 450ms, opacity 300ms ease;
+}
+
+.project:hover .project__description{
+
+    opacity:1;
+    transform: translateY(-50%);
 }
 
 .project__description--title{
@@ -268,16 +276,17 @@ transform:scale(1);
     margin: 16px 0;
 }
 
-.project__description--links{
+.project__description--link{
 
     font-size:20px;
     text-decoration:none;
+    text-align:left;
 
 }
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,
-.project__description--links {
+.project__description--link {
 
     text-align:left;
     color:white;
