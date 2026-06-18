@@ -207,6 +207,10 @@ transform:scale(1);
 
 /*PROJECT LIST*/
 
+.project{
+    margin-bottom: 135px;
+}
+
 .project__img {
     width:100%;
     transition:all 500 ms ease;
@@ -292,3 +296,7 @@ transform:scale(1);
     color:white;
 }
 
+.project__lastchild{
+
+    margin-bottom:40px;
+}
