@@ -22,6 +22,10 @@ a{
     text-decoration:none;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 .container {
   padding: 50px 0;
 }
@@ -310,9 +314,6 @@ footer{
     background-color:#242424;
 }
 
-.footer__logo{
-    margin-bottom:24px;
-}
 
 .footer__social--list{
 
@@ -341,3 +342,23 @@ footer{
     color:#f8f8f8;
 }
 
+.footer__logo--popper{
+    position:absolute;
+    color:white;
+    right:0;
+    top: 30px;
+    font-weight:700;
+    opacity:0;
+    transition: all 300ms ease;
+}
+
+.footer__anchor{
+    position:relative;
+    margin-bottom:24px;
+}
+
+.footer__anchor:hover .footer__logo--popper{
+    transform: translateX(60px);
+    opacity: 1;
+
+}
