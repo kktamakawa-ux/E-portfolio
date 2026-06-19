@@ -21,6 +21,11 @@ p {
 a {
     text-decoration:none;
     position:relative;
+    transition: opacity 300ms ease;
+}
+
+a:hover {
+    opacity: .7;
 }
 
 .link__hover-effect:after{
@@ -45,7 +50,7 @@ a {
 }
 
 .link__hover-effect--black:after{
-    background-color:#242424;
+    background-color:#000;
 }
 
 html{
